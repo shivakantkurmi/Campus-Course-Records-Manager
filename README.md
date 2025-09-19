@@ -44,15 +44,6 @@ CCRM/
 │   │   │       ├── DuplicateEnrollmentException.java
 │   │   │       ├── MaxCreditLimitExceededException.java
 │   │   │       └── RecursiveUtil.java
-├── data/
-│   └── students.csv
-├── test-data/
-│   └── students.csv
-├── screenshots/
-│   ├── java-version.png
-│   ├── vscode-setup.png
-│   ├── program-run.png
-│   └── backup-folder.png
 └── README.md
 ```
 
@@ -204,11 +195,11 @@ java -ea -cp bin edu.ccrm.cli.Main
 ```
 
 ## Screenshots
+<img width="1919" height="902" alt="Screenshot 2025-09-19 212615" src="https://github.com/user-attachments/assets/08958496-3a3e-4dd5-8c83-28f52fad88cf" />
 
-* `screenshots/java-version.png`: Output of `java -version`
-* `screenshots/vscode-setup.png`: VS Code structure
-* `screenshots/program-run.png`: CLI sample
-* `screenshots/backup-folder.png`: Backup folder
+<img width="1919" height="962" alt="image" src="https://github.com/user-attachments/assets/c88a3551-e5a4-4a3d-bb51-152120511bcf" />
+
+
 
 ## Sample Data
 
@@ -220,16 +211,3 @@ ID,RegNo,FullName,Email,DOB
 2,REG002,Jane Smith,jane@example.com,2001-02-02
 ```
 
-## Acknowledgements
-
-No external references/libraries. All code is original and follows academic integrity.
-
-## Optional Demo Video
-
-2–5 min walkthrough available at \[YouTube/Drive link] (update if applicable).
-
-## Notes
-
-* Ensure `data` folder exists before running.
-* Push project to GitHub with source, README.md, test-data, screenshots.
-* Contact repository owner for issues/clarifications.
